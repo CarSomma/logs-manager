@@ -18,7 +18,7 @@ setup(
         'Programming Language :: Python :: 3.9',
     ], # some additional metadata about your package.
     description='Manager of logging',
-    #long_description=read_file('README.md'),
+    long_description=read_file('README.md'),
     # end-user dependencies for your library
     #install_requires=[
         #'<name-of-required-packake>',
