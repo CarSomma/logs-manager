@@ -102,11 +102,11 @@ if __name__ == '__main__':
     log_manager = LogManager(filename='app.log',file_level='WARNING').logger
     try:
         log_manager.info('Trying to open the file')
-        filePointer = open('appFile','r')
+        file = open('file.txt','r')
         try:
             log_manager.info('Trying to read the file content')
-            content = filePointer.readline()
+            content = file.readline()
         finally:
-            filePointer.close()
+            file.close()
     except IOError as e:
         log_manager.error(str(e))
