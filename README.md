@@ -158,5 +158,3 @@ log_manager.error('This is an error message.')
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
-
-Feel free to customize further, especially the sections about your repository URL or additional usage examples.
